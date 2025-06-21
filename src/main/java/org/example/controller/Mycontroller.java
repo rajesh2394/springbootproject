@@ -17,8 +17,12 @@ public class Mycontroller {
     @PostMapping("/user")
     public User addUserDetails(@RequestBody User user)
     {
+        System.out.println(" ");
         return userservices.createUser(user);
+
+
 
     }
 }
 
+S
