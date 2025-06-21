@@ -17,12 +17,10 @@ public class Mycontroller {
     @PostMapping("/user")
     public User addUserDetails(@RequestBody User user)
     {
-        System.out.println(" ");
+        System.out.println(" hello world ");
         return userservices.createUser(user);
 
 
 
     }
 }
-
-S
